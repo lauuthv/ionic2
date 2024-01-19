@@ -10,7 +10,7 @@ export class RegistroPage implements OnInit {
   forRegistro = {
     username: '',
     email: '',
-    password: ''
+    password: ' '
   };
 
   constructor(private router: Router) {}
