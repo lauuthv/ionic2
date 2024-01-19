@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="titulo">
+    <ion-title style="font-family: Georgia, serif;">Bienvenido</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/login']" shape="block" >
+        <ion-icon name="log-out-outline"size="large"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="two-column-layout">
+      <div class="imagen">
+        <ion-img src="assets/imagenes/bienvenido.jpg"></ion-img>
+      </div>
+      <div class="información">
+        <h2>PSICOAPP</h2>
+        <p style="color: black; font-family: Georgia, serif;">Bienvenido a nuestra aplicación que ofrece servicios de psicología.</p>
+        <p style="color: black; font-family: Georgia, serif;">Nuestro equipo de profesionales está aquí para ayudarte en tu bienestar emocional.</p>
+        <ion-button [routerLink]="['/home']" shape="block" class="botones">Servicios</ion-button>
+      </div>
+    </div>
+  </div>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">bienvenido</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>

@@ -1,0 +1,38 @@
+/* Agrega estos estilos a tu archivo CSS */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .titulo{
+    text-align: center;
+    --background:#64c27b;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imagen {
+    width: 30%; 
+    margin-right: 20px; 
+  }
+  
+  .formulario-registro {
+    width: 100%;
+    max-width: 400px; 
+  }
+  
+  .boton {
+    font-size: 14px; 
+  }
+  
+  .botones {
+    margin-top: 15px; 
+    --background:#64c27b;
+  }
+  

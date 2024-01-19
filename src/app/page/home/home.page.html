@@ -1,0 +1,247 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="titulo">
+    <ion-title style="font-family: Georgia, serif;">Servicios {{mensaje}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button>
+      </ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/login']" size="large" shape="block" class="botones">
+        <ion-icon name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+
+   
+    <ion-row>
+   
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="primary">
+          <ion-card-header>
+            <ion-card-title>Terapia Individual</ion-card-title>
+            <ion-card-subtitle>Terapeutas profesionales</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Sesiones individuales con terapeutas experimentados para abordar problemas específicos y trabajar en el bienestar mental.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="secondary">
+          <ion-card-header>
+            <ion-card-title>Terapia de Pareja</ion-card-title>
+            <ion-card-subtitle>Mejora tu relación</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Sesiones diseñadas para parejas que buscan fortalecer su comunicación, resolver conflictos y construir una relación más sólida.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+     
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="tertiary">
+          <ion-card-header>
+            <ion-card-title>Apoyo en Crisis</ion-card-title>
+            <ion-card-subtitle>Asistencia urgente</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Servicio de atención 24/7 para brindar apoyo inmediato a aquellos que atraviesan situaciones de crisis emocional.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+   
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="success">
+          <ion-card-header>
+            <ion-card-title>Talleres y Grupos</ion-card-title>
+            <ion-card-subtitle>Comunidad de apoyo</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Participa en talleres y grupos dirigidos por profesionales, centrados en el crecimiento personal, manejo del estrés y habilidades sociales.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/individual.avif"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+     
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/pareja.jpg"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/crisis.jpg"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/grupos.webp"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  
+  
+
+    <ion-row>
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="primary">
+          <ion-card-header>
+            <ion-card-title>Mindfulness y Meditación</ion-card-title>
+            <ion-card-subtitle>Calma y concentración</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Descubre técnicas de mindfulness y meditación guiada para reducir el estrés, mejorar la concentración y fomentar la paz interior.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="secondary">
+          <ion-card-header>
+            <ion-card-title>Evaluación Psicológica</ion-card-title>
+            <ion-card-subtitle>Entender tus necesidades</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Realiza evaluaciones psicológicas para comprender tus necesidades específicas y recibir recomendaciones personalizadas.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="tertiary">
+          <ion-card-header>
+            <ion-card-title>Coaching de Vida</ion-card-title>
+            <ion-card-subtitle>Alcanza tus metas</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Sesiones de coaching para ayudarte a establecer metas, superar obstáculos y crear un plan para lograr una vida más plena y satisfactoria.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+    
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="success">
+          <ion-card-header>
+            <ion-card-title>Psicoeducación</ion-card-title>
+            <ion-card-subtitle>Aprende sobre la salud mental</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            Accede a recursos educativos que aborden temas relacionados con la salud mental, proporcionando información valiosa para tu bienestar.
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  
+    
+   
+    <ion-row>
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/meditacion.jpg"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+      
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/evaluacion.jpeg"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+  
+     
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/vida.png"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+     
+      <ion-col size="12" size-md="6" size-lg="3">
+        <ion-card color="white">
+          <ion-card-header>
+            <ion-card-title></ion-card-title>
+            <ion-card-subtitle></ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="assets/imagenes/educacion.avif"> </ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  
+  
+  </ion-grid>
+  
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content>

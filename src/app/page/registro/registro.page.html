@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar class="titulo">
+    <ion-title style="font-family: Georgia, serif;">Registro</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<div class="container">
+  <ion-content [fullscreen]="true">
+    <div class="formulario">
+    
+      <img class="imagen" src="assets/imagenes/regi.svg" alt="Imagen">
+
+      <!-- Formulario -->
+      <form #registroForm="ngForm" (ngSubmit)="Registrarse()" class="formulario-registro">
+   
+        <ion-item>
+          <ion-label position="floating">Nombre de usuario</ion-label>
+          <ion-input [(ngModel)]="forRegistro.username" name="username" type="text" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Correo electrónico</ion-label>
+          <ion-input [(ngModel)]="forRegistro.email" name="email" type="email" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input [(ngModel)]="forRegistro.password" name="password" type="password" required></ion-input>
+        </ion-item>
+
+        <ion-button [disabled]="registroForm.form.invalid" type="submit" class="botones">
+          Registrarse
+        </ion-button>
+      </form>
+    </div>
+  </ion-content>
+</div>

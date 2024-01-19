@@ -1,0 +1,37 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: white; 
+    
+  }
+  
+
+  
+  .two-column-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+  }
+  
+  .imagen {
+    width: 40%;
+    max-width: 40%;
+    margin-right: 20px;
+  }
+  
+  .formulario {
+    width: 30%;
+  }
+  
+  .botones {
+    margin-top: 15px;
+    --background: #64c27b;
+  }
+  

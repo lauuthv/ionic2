@@ -1,0 +1,53 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background: white;
+  }
+  
+  .titulo {
+    text-align: center;
+    --background:#c995ad ;
+  }
+  
+  .two-column-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+  }
+  
+  .imagen {
+    width: 40%;
+    max-width: 40%;
+    margin-right: 20px;
+  }
+  
+  
+  
+  .información h2 {
+    color: #ff6f61; 
+    font-size: 2.5em; 
+    text-align: center; 
+    font-family: 'Pacifico', cursive; 
+  }
+  .información p{
+    text-align: center; 
+  }
+ 
+  
+  .botones {
+    margin-top: 15px;
+    --background: #64c27b;
+    width: 30%;
+    margin-left: 40%;
+    display: flex;
+    
+}
+
